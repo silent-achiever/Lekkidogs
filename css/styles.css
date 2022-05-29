@@ -1,0 +1,202 @@
+body {
+  font-family: Montserrat;
+}
+
+#title {
+  color: #fff;
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15% 10%;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: 3rem;
+line-height: 2;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f
+}
+
+.name{
+  color: #000;
+
+}
+
+/* Navbar */
+.navbar {
+  padding-top: 3rem;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 2.5rem;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff;
+  font-family: Ubuntu;
+}
+
+.nav-link {
+  margin: 0 5.5px;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* download buttons */
+.btn {
+  margin: 5% 3% 5% 0px;
+}
+
+/* title-image */
+.title-image {
+  width: 22%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 57%;
+}
+
+/* features  */
+#features {
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+}
+
+.features-box {
+  text-align: center;
+  padding: 6%
+}
+
+.icons {
+  padding-bottom: 1rem;
+  color: #ef8172;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  width: 8%;
+  margin-right: 16px;
+  margin-bottom: 40px;
+}
+
+.testimonial-image-beverly {
+  border-radius: 100%;
+  width: 8%;
+  margin-right: 16px;
+  margin-bottom: 40px;
+}
+
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 6%;
+  text-align: center;
+}
+
+/* press */
+.press-img {
+  width: 15%;
+  margin: 1.5rem;
+}
+
+carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing */
+#pricing {
+  text-align: center;
+  padding: 100px
+}
+
+.pricing-column {
+  padding: 5% 2%;
+}
+
+@media(max-width: 995px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
+
+/* cta */
+#cta {
+  background-color: #ff4c68;
+  padding: 100px 15% 40px;
+  text-align: center;
+}
+
+.cta h3 {
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.btn-dark:hover {
+  color: #fff;
+}
+
+/* footer */
+#footer {
+  text-align: center;
+  padding: 100px 15% 20%;
+  background-color: #fff;
+}
+
+.spanspace{
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+
+.footer-socials{
+  padding-bottom: 25px;
+}
+a{
+  color: #000;
+  text-decoration: none;
+}
+.name-a{
+  color: #007bff;
+}
